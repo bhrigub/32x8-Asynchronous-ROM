@@ -1,0 +1,257 @@
+# Reading C:/questasim_10.1d/tcl/vsim/pref.tcl 
+# //  Questa Sim
+# //  Version 10.1d win32 Nov  1 2012
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# OpenFile C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab6/Q2/Sim/l6q2.mpf 
+# Loading project l6q2
+vsim -novopt tb
+# vsim -novopt tb 
+# Loading work.tb
+# Loading work.l6q2
+# Loading work.l6q2a
+# Compile of l6q2.v was successful.
+vsim -novopt tb
+# vsim -novopt tb 
+# Refreshing C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab6/Q2/Sim/work.tb
+# Loading work.tb
+# Refreshing C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab6/Q2/Sim/work.l6q2
+# Loading work.l6q2
+# Refreshing C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab6/Q2/Sim/work.l6q2a
+# Loading work.l6q2a
+add wave *
+run 320
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 14 of file "memory1.txt". (Current address [28], address range [15:27])    : C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab6/Q2/Src/l6q2.v(50)
+#    Time: 0 ns  Iteration: 0  Instance: /tb/t2
+# @00 xx
+# @01 xx
+# @02 xx
+# @03 xx
+# @04 xx
+# @05 xx
+# @06 xx
+# @07 xx
+# @08 xx
+# @09 xx
+# @0a xx
+# @0b xx
+# @0c xx
+# @0d xx
+# @0e xx
+# @0f xx
+# @10 xx
+# @11 xx
+# @12 xx
+# @13 xx
+# @14 xx
+# @15 xx
+# @16 xx
+# @17 xx
+# @18 xx
+# @19 xx
+# @1a xx
+# @1b xx
+# @1c xx
+# @1d xx
+# @1e xx
+# @1f xx
+# Compile of l6q2.v was successful.
+restart -f
+# Refreshing C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab6/Q2/Sim/work.tb
+# Loading work.tb
+# Refreshing C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab6/Q2/Sim/work.l6q2
+# Loading work.l6q2
+# Refreshing C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab6/Q2/Sim/work.l6q2a
+# Loading work.l6q2a
+run 350
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 1 of file "memory1.txt". Expected 14, found 0.    : C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab6/Q2/Src/l6q2.v(50)
+#    Time: 0 ns  Iteration: 0  Instance: /tb/t2
+# @00 xx
+# @01 xx
+# @02 xx
+# @03 xx
+# @04 xx
+# @05 xx
+# @06 xx
+# @07 xx
+# @08 xx
+# @09 xx
+# @0a xx
+# @0b xx
+# @0c xx
+# @0d xx
+# @0e xx
+# @0f xx
+# @10 xx
+# @11 xx
+# @12 xx
+# @13 xx
+# @14 xx
+# @15 xx
+# @16 xx
+# @17 xx
+# @18 xx
+# @19 xx
+# @1a xx
+# @1b xx
+# @1c xx
+# @1d xx
+# @1e xx
+# @1f xx
+# Compile of l6q2.v was successful.
+restart -f
+# Refreshing C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab6/Q2/Sim/work.tb
+# Loading work.tb
+# Refreshing C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab6/Q2/Sim/work.l6q2
+# Loading work.l6q2
+# Refreshing C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab6/Q2/Sim/work.l6q2a
+# Loading work.l6q2a
+run 350
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 1 of file "memory1.txt". Expected 14, found 0.    : C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab6/Q2/Src/l6q2.v(49)
+#    Time: 0 ns  Iteration: 0  Instance: /tb/t2
+# @00 xx
+# @00 00
+# @01 00
+# @01 01
+# @02 01
+# @02 02
+# @03 02
+# @03 03
+# @04 03
+# @04 04
+# @05 04
+# @05 05
+# @06 05
+# @06 06
+# @07 06
+# @07 07
+# @08 07
+# @08 08
+# @09 08
+# @09 09
+# @0a 09
+# @0a 0a
+# @0b 0a
+# @0b 0b
+# @0c 0b
+# @0c 0c
+# @0d 0c
+# @0d 0d
+# @0e 0d
+# @0e 0e
+# @0f 0e
+# @0f 0f
+# @10 0f
+# @10 10
+# @11 10
+# @11 11
+# @12 11
+# @12 12
+# @13 12
+# @13 13
+# @14 13
+# @14 14
+# @15 14
+# @15 15
+# @16 15
+# @16 16
+# @17 16
+# @17 17
+# @18 17
+# @18 18
+# @19 18
+# @19 19
+# @1a 19
+# @1a 1a
+# @1b 1a
+# @1b 1b
+# @1c 1b
+# @1c 1c
+# @1d 1c
+# @1d 1d
+# @1e 1d
+# @1e 1e
+# @1f 1e
+# @1f 1f
+restart -f
+# Compile of l6q2.v was successful.
+restart -f
+# Refreshing C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab6/Q2/Sim/work.tb
+# Loading work.tb
+# Refreshing C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab6/Q2/Sim/work.l6q2
+# Loading work.l6q2
+# Refreshing C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab6/Q2/Sim/work.l6q2a
+# Loading work.l6q2a
+run 350
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 15 of file "memory1.txt". (Current address [29], address range [15:28])    : C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab6/Q2/Src/l6q2.v(49)
+#    Time: 0 ns  Iteration: 0  Instance: /tb/t2
+# @00 xx
+# @00 00
+# @01 00
+# @01 01
+# @02 01
+# @02 02
+# @03 02
+# @03 03
+# @04 03
+# @04 04
+# @05 04
+# @05 05
+# @06 05
+# @06 06
+# @07 06
+# @07 07
+# @08 07
+# @08 08
+# @09 08
+# @09 09
+# @0a 09
+# @0a 0a
+# @0b 0a
+# @0b 0b
+# @0c 0b
+# @0c 0c
+# @0d 0c
+# @0d 0d
+# @0e 0d
+# @0e 0e
+# @0f 0e
+# @0f 0f
+# @10 0f
+# @10 10
+# @11 10
+# @11 11
+# @12 11
+# @12 12
+# @13 12
+# @13 13
+# @14 13
+# @14 14
+# @15 14
+# @15 15
+# @16 15
+# @16 16
+# @17 16
+# @17 17
+# @18 17
+# @18 18
+# @19 18
+# @19 19
+# @1a 19
+# @1a 1a
+# @1b 1a
+# @1b 1b
+# @1c 1b
+# @1c 1c
+# @1d 1c
+# @1d 1d
+# @1e 1d
+# @1e 1e
+# @1f 1e
+# @1f 1f
